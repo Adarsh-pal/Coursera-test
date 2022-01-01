@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px;
+    margin: 0%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h1{
+    margin: 5%;
+    font-size:  1.75em;
+}
+.container{
+    width: 100%;
+}
+.item{
+    background-color: rgb(163, 158, 158);
+    float: left;
+    border: 1px solid black;
+    margin: 1%;
+    position: relative;
+
+}
+
+.title{
+    width: 25%;
+    position: relative;
+    left: 75%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
+#idli{
+    background-color: red;
+    color: white;
+}
+
+
+#samosa{
+    background-color: yellow;
+}
+
+
+#momo{
+    background-color: lightgreen;
+}
+
+@media (min-width: 992px){
+
+    .item{
+       width: 31%; 
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .item{
+       width: 48%; 
+   }
+   .momo{
+       width: 98%;
+   }
+}
