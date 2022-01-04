@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar, .navbar-default{
+  background-color: currentColor;
+}
+
+#collapsable-nav ul li{
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+
+    .navbar-collapse{
+        background-color: tomato;
+    }
+}
+.navbar-default .navbar-brand:hover ,.navbar-brand:active{
+    color: tomato;
+}
+
+.container-fluid .navbar-brand{
+    font-weight: bolder;
+    color: white;
+}
+
+#content{
+    background-color: rgb(198, 190, 190);
+    padding: 1%;
+}
+
+#main-heading{
+    margin-bottom: 20px;
+}
